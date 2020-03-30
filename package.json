@@ -1,0 +1,25 @@
+{
+  "name": "github-gatekeeper",
+  "description": "now.sh stateless function for OAuth GitHub flow then exchange authorization code for a token",
+  "url": "https://github.com/kobzarvs/github-gatekeeper",
+  "keywords": [
+    "github",
+    "oauth"
+  ],
+  "scripts": {
+    "start": "now dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kobzarvs/github-gatekeeper"
+  },
+  "author": "Valery Kobzar",
+  "license": "MIT",
+  "contributors": [],
+  "main": "index.html",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@now/node": "^1.5.0"
+  }
+}
