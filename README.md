@@ -64,13 +64,28 @@ Also see the [documentation on Github](http://developer.github.com/v3/oauth/).
    
 3. Run local dev environment
 
+    First of all you must create `.env` file:
+    
+    ```
+    OAUTH_CLIENT_SECRET=<OAUTH_CLIENT_SECRET>
+    OAUTH_CLIENT_ID=<OAUTH_CLIENT_ID>
+    ```
+
     ```
     now dev
     ```
 
 ## Deploy on now.sh
 
-1.
+1. Add secrets env variables
+
+    ```
+    now secrets add OAUTH_CLIENT_SECRET <OAUTH_CLIENT_SECRET> 
+    now secrets add OAUTH_CLIENT_ID <OAUTH_CLIENT_ID>
+    ``` 
+
+2. Deploy service
+
     ```
     now
     ```
